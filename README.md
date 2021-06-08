@@ -1,6 +1,6 @@
-# SUPE-ANOVA: From Many to One: Consensus Inference in a MIP
+# From Many to One: Consensus Inference in a MIP (SUPE-ANOVA)
 
-This repository contains code to reproduce the results in the paper "From Many to One: Consensus Inference in a MIP".
+This repository contains code to reproduce the results in the paper "From Many to One: Consensus Inference in a MIP". It implements the SUPE-ANOVA framework for the specific case of analysing the results of the [OCO-2 MIPv7](https://gml.noaa.gov/ccgg/OCO2/).
 
 ## Installation/setting up an environment
 
