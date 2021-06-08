@@ -5,9 +5,6 @@ source('scripts/partials/tables.R')
 library(tidyr)
 library(patchwork)
 
-print(sessionInfo())
-print(.libPaths())
-
 fit_df <- readRDS('intermediates/fit.rds')
 
 weight_df <- fit_df %>%
