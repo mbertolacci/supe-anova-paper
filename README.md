@@ -2,6 +2,8 @@
 
 This repository contains code to reproduce the results in the paper "From Many to One: Consensus Inference in a MIP". It implements the SUPE-ANOVA framework for the specific case of analysing the results of the [OCO-2 MIPv7](https://gml.noaa.gov/ccgg/OCO2/).
 
+<img src="images/climatological-weights.png" />
+
 ## Installation/setting up an environment
 
 This repository uses the `make` tool to orchestrate the workflow and it is expected that it is run from a command line. It has been tested on macOS and ought to work on any UNIX-like system. The code in this repository is written in the [R programming language](https://www.r-project.org/) and any version of newer than 4.0 is expected to work.
