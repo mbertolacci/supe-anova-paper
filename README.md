@@ -6,15 +6,15 @@ This repository contains code to reproduce the results in the paper "From Many t
 
 ## Installation/setting up an environment
 
-This repository uses [`make`](https://en.wikipedia.org/wiki/Make_(software)) to orchestrate the workflow and it is expected that it is run from a command line. It has been tested on macOS and ought to work on any UNIX-like system. The code in this repository is written in the [R programming language](https://www.r-project.org/) and any version of newer than 4.0 is expected to work.
+This repository uses [`make`](https://en.wikipedia.org/wiki/Make_(software)) to orchestrate the workflow and it is expected that it is run from a command line. It has been tested on macOS and ought to work on any UNIX-like system. The code in this repository is written in the [R programming language](https://www.r-project.org/) and any version of R newer than 4.0 is expected to work.
 
-The software dependencies are encoded using the [renv](https://rstudio.github.io/renv/articles/renv.html) package. If you have a new enough version of R and the renv package installed, you can run the following command from the repository root directory:
+The software dependencies are encoded using the [renv](https://rstudio.github.io/renv/articles/renv.html) package. If you have a new enough version of R installed, you can run the following command from the repository root directory:
 
 ```
 make bootstrap
 ```
 
-This will use renv to install all the required packages.
+This will use renv to install all the required R packages. There may be some system dependencies like `netcdf4` that you need to install; these cases will need to be worked through individually if the above command fails. For example, the `sf` package will be installed, and it has several dependencies documented at [https://r-spatial.github.io/sf/index.html](https://r-spatial.github.io/sf/index.html).
 
 ## Required data
 
